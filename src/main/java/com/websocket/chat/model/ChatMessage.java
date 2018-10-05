@@ -16,23 +16,26 @@ public class ChatMessage {
             return type;
         }
 
-        public void setType(MessageType type) {
+        public ChatMessage setType(MessageType type) {
             this.type = type;
+            return this;
         }
 
         public String getContent() {
             return content;
         }
 
-        public void setContent(String content) {
+        public ChatMessage setContent(String content) {
             this.content = content;
+            return this;
         }
 
         public String getSender() {
             return sender;
         }
 
-        public void setSender(String sender) {
+        public ChatMessage setSender(String sender) {
             this.sender = sender;
+            return this;
         }
 }
